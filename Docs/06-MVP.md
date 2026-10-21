@@ -1,79 +1,79 @@
-PeerBooks MVP (Version 1.0)
+# PeerBooks MVP (Version 1.0)
 
-Objective
+## Objective
 
 Launch a cloud-based accounting platform that allows SMEs to manage their accounting records without relying on spreadsheets or multiple disconnected systems.
 
-Target Customers
+## Target Customers
 
 - Trading businesses
 - Manufacturing businesses
 - Service businesses
 - Small and Medium Enterprises (SMEs)
 
-Excluded from Version 1.0:
+## Excluded from Version 1.0:
 
 - Advanced textile export workflows
 - Export documentation management
 - Letter of Credit management
 - Industry-specific export compliance modules
 
-Mandatory Modules
+## Mandatory Modules
 
-Authentication
+### Authentication
 
 - User Login
 - User Logout
 - Password Reset
 - User Roles
 
-Company Management
+### Company Management
 
 - Company Registration
 - Company Profile
 - User Assignment
 
-Accounting
+### Accounting
 
 - Chart of Accounts
 - Journal Entries
 - General Ledger
 - Trial Balance
 
-Sales
+### Sales
 
 - Customers
 - Sales Invoices
 - Sales Reporting
 
-Purchases
+### Purchases
 
 - Vendors
 - Purchase Invoices
 - Purchase Reporting
 
-Expenses
+### Expenses
 
 - Expense Recording
 - Expense Categories
 
-Inventory
+### Inventory
 
 - Product Master
 - Inventory Tracking
 - Stock Valuation
 
-Financial Reports
+### Financial Reports
 
 - Trial Balance
 - Profit and Loss Statement
 - Balance Sheet
 
-Success Criteria
+## Success Criteria
 
 Version 1.0 is successful when a company can maintain complete accounting records and generate financial statements without using external accounting software.
 
-Product Philosophy
+## Product Philosophy
 
 Strong accounting foundation first.
 

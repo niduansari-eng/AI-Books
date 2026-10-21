@@ -1,10 +1,10 @@
-PeerBooks Roadmap
+# PeerBooks Roadmap
 
-Phase 1 - SaaS Foundation
+## Phase 1 - SaaS Foundation
 
 Goal: Transform PeerBooks from a single-user application into a multi-company SaaS platform.
 
-Deliverables:
+### Deliverables:
 
 - User Authentication
 - Company Registration
@@ -15,15 +15,15 @@ Deliverables:
 - Cloud Data Storage
 - Audit Logging Foundation
 
-Success Criteria:
+### Success Criteria:
 
 A company can register, create users, log in, and securely access only its own data.
 
-Phase 2 - Accounting Core
+## Phase 2 - Accounting Core
 
 Goal: Build a complete accounting engine.
 
-Deliverables:
+### Deliverables:
 
 - Chart of Accounts
 - Journal Entries
@@ -34,15 +34,15 @@ Deliverables:
 - Customer Management
 - Vendor Management
 
-Success Criteria:
+### Success Criteria:
 
 A company can maintain accounting records without relying on external accounting software.
 
-Phase 3 - Business Operations
+## Phase 3 - Business Operations
 
 Goal: Expand beyond accounting.
 
-Deliverables:
+### Deliverables:
 
 - Sales Management
 - Purchase Management
@@ -51,15 +51,15 @@ Deliverables:
 - Fixed Assets
 - Management Reports
 
-Success Criteria:
+### Success Criteria:
 
 PeerBooks supports daily operational activities of SMEs.
 
-Phase 4 - Financial Intelligence
+## Phase 4 - Financial Intelligence
 
 Goal: Improve decision-making.
 
-Deliverables:
+### Deliverables:
 
 - Profit and Loss Statement
 - Balance Sheet
@@ -68,15 +68,15 @@ Deliverables:
 - Dashboard Analytics
 - Management Insights
 
-Success Criteria:
+### Success Criteria:
 
 Business owners can understand company performance without accounting expertise.
 
-Phase 5 - AI Assistant
+## Phase 5 - AI Assistant
 
 Goal: Introduce intelligent assistance.
 
-Deliverables:
+### Deliverables:
 
 - AI Chat Assistant
 - Journal Entry Suggestions
@@ -85,15 +85,15 @@ Deliverables:
 - Business Insights
 - Natural Language Reporting
 
-Success Criteria:
+### Success Criteria:
 
 Users can interact with business data through conversational AI.
 
-Phase 6 - Enterprise Expansion
+## Phase 6 - Enterprise Expansion
 
 Goal: Support larger organizations.
 
-Deliverables:
+### Deliverables:
 
 - Multi-Branch Management
 - Approval Workflows
@@ -102,11 +102,11 @@ Deliverables:
 - Budgeting
 - Consolidated Reporting
 
-Success Criteria:
+### Success Criteria:
 
 PeerBooks can support larger and more complex organizations.
 
-Guiding Principle
+## Guiding Principle
 
 Build a stable accounting platform first.
 
