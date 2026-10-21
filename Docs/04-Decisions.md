@@ -1,4 +1,4 @@
-Decision 001
+# Decision 001
 
 Date: 2026-10-21
 
@@ -23,7 +23,7 @@ Reason:
 
 Export-focused functionality significantly increases product complexity and is not required for the first launch.
 
-Decision 002
+# Decision 002
 
 Date: 2026-10-21
 
@@ -42,7 +42,7 @@ Reason:
 
 These are the most common operational challenges faced by SMEs.
 
-Decision 003
+# Decision 003
 
 Date: 2026-10-21
 
@@ -67,7 +67,7 @@ Reason:
 
 These represent the minimum requirements for a usable accounting platform.
 
-Decision 004
+# Decision 004
 
 Date: 2026-10-21
 
