@@ -44,3 +44,4 @@ This `Docs` folder is the **source of truth** for the entire PeerBooks SaaS proj
 | [03-Database.md](03-Database.md) | Database design |
 | [04-Decisions.md](04-Decisions.md) | Decision log |
 | [05-Sprints.md](05-Sprints.md) | Sprint plans |
+| [06-MVP.md](06-MVP.md) | MVP definition |
