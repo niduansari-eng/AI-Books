@@ -94,7 +94,7 @@ Key Fields:
 - cost_price
 - sale_price
 
-chartofaccounts
+chart_of_accounts
 
 Official chart of accounts.
 
@@ -188,7 +188,7 @@ Journal entry details.
 Key Fields:
 
 - id
-- journalentryid
+- journal_entry_id
 - account_id
 - debit
 - credit
@@ -200,6 +200,8 @@ Every business table shall contain company_id.
 All business queries must filter by company_id.
 
 A company must never access records belonging to another company.
+
+Child tables such as sales_items, purchase_items, and journal_lines inherit company ownership through their parent records and therefore do not require a direct company_id field.
 
 Row Level Security
 
@@ -222,7 +224,7 @@ Primary Keys:
 
 Foreign Keys:
 
-- tablenameid
+- table_name_id
 
 Dates:
 
