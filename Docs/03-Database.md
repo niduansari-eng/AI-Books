@@ -1,6 +1,6 @@
-PeerBooks Database Design
+# PeerBooks Database Design
 
-Purpose
+## Purpose
 
 This document defines the official database design for PeerBooks Version 1.0.
 
@@ -8,7 +8,7 @@ The database platform is Supabase PostgreSQL.
 
 All business records shall be stored within the official database.
 
-Core Principle
+## Core Principle
 
 Every business record belongs to a company.
 
@@ -18,9 +18,9 @@ company_id
 
 Company data must always remain isolated from other companies.
 
-Master Tables
+## Master Tables
 
-companies
+### companies
 
 Stores registered companies.
 
@@ -32,7 +32,7 @@ Key Fields:
 - tax_number
 - created_at
 
-users
+### users
 
 Stores application users.
 
@@ -45,7 +45,7 @@ Key Fields:
 - email
 - created_at
 
-roles
+### roles
 
 Stores security roles.
 
@@ -57,7 +57,7 @@ Roles:
 - Sales User
 - Viewer
 
-customers
+### customers
 
 Customer master records.
 
@@ -69,7 +69,7 @@ Key Fields:
 - customer_name
 - contact_details
 
-vendors
+### vendors
 
 Vendor master records.
 
@@ -81,7 +81,7 @@ Key Fields:
 - vendor_name
 - contact_details
 
-products
+### products
 
 Product master records.
 
@@ -94,7 +94,7 @@ Key Fields:
 - cost_price
 - sale_price
 
-chart_of_accounts
+### chart_of_accounts
 
 Official chart of accounts.
 
@@ -106,9 +106,9 @@ Key Fields:
 - account_name
 - account_type
 
-Transaction Tables
+## Transaction Tables
 
-sales
+### sales
 
 Sales invoice header.
 
@@ -121,7 +121,7 @@ Key Fields:
 - invoice_date
 - total_amount
 
-sales_items
+### sales_items
 
 Sales invoice lines.
 
@@ -133,7 +133,7 @@ Key Fields:
 - quantity
 - unit_price
 
-purchases
+### purchases
 
 Purchase invoice header.
 
@@ -146,7 +146,7 @@ Key Fields:
 - invoice_date
 - total_amount
 
-purchase_items
+### purchase_items
 
 Purchase invoice lines.
 
@@ -158,7 +158,7 @@ Key Fields:
 - quantity
 - unit_cost
 
-expenses
+### expenses
 
 Expense transactions.
 
@@ -170,7 +170,7 @@ Key Fields:
 - account_id
 - amount
 
-journal_entries
+### journal_entries
 
 Journal entry header.
 
@@ -181,7 +181,7 @@ Key Fields:
 - entry_number
 - entry_date
 
-journal_lines
+### journal_lines
 
 Journal entry details.
 
@@ -193,7 +193,7 @@ Key Fields:
 - debit
 - credit
 
-Security Model
+## Security Model
 
 Every business table shall contain company_id.
 
@@ -203,7 +203,7 @@ A company must never access records belonging to another company.
 
 Child tables such as sales_items, purchase_items, and journal_lines inherit company ownership through their parent records and therefore do not require a direct company_id field.
 
-Row Level Security
+## Row Level Security
 
 Supabase Row Level Security (RLS) shall be enabled.
 
@@ -211,7 +211,7 @@ Users shall only access records associated with their company.
 
 RLS policies shall be considered mandatory for all business tables.
 
-Naming Rules
+## Naming Rules
 
 Tables:
 
@@ -235,7 +235,7 @@ Timestamps:
 - created_at
 - updated_at
 
-Indexing Principles
+## Indexing Principles
 
 Indexes shall be created on:
 
