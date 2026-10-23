@@ -107,3 +107,22 @@ Architecture and future roadmap revisions must align with the MVP document.
 
 Reason:
 A customer cannot operate a complete accounting system without these modules.
+
+# Decision 009
+
+Date: 2026-10-24
+
+Subject:
+Company Ownership Assignment
+
+Decision:
+
+The first user creating a new company automatically receives the Owner role.
+
+This automatic assignment occurs only once per company.
+
+All future users must be invited or assigned roles by authorized users.
+
+Reason:
+
+Every company must begin with a clearly designated owner responsible for administration and governance.
