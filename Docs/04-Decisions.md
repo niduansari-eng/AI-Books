@@ -108,6 +108,54 @@ Architecture and future roadmap revisions must align with the MVP document.
 Reason:
 A customer cannot operate a complete accounting system without these modules.
 
+# Decision 006
+
+Date: 2026-10-24
+
+Subject: Frontend Framework
+
+Decision:
+
+PeerBooks Version 1.0 will use Next.js as the official frontend framework.
+
+Reason:
+
+Next.js supports the approved architecture, works natively with Vercel, supports server-side execution, and aligns with long-term SaaS scalability requirements.
+
+# Decision 007
+
+Date: 2026-10-24
+
+Subject: UI Framework
+
+Decision:
+
+PeerBooks Version 1.0 will use Tailwind CSS and ShadCN UI as the official frontend UI framework.
+
+Reason:
+
+This combination provides rapid development, modern SaaS user experience, and long-term flexibility.
+
+# Decision 008
+
+Date: 2026-10-24
+
+Subject: Hosting Architecture
+
+Decision:
+
+Frontend hosting platform:
+
+- Vercel
+
+Backend and database platform:
+
+- Supabase
+
+Reason:
+
+This architecture aligns with the approved SaaS architecture and simplifies deployment, scalability, and maintenance.
+
 # Decision 009
 
 Date: 2026-10-24
