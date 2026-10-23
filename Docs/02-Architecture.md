@@ -1,12 +1,12 @@
-PeerBooks Architecture
+# PeerBooks Architecture
 
-Purpose
+## Purpose
 
 This document defines the official architecture for PeerBooks Version 1.0.
 
 All future development must align with this architecture unless a documented architectural decision supersedes it.
 
-System Architecture
+## System Architecture
 
 PeerBooks will be developed as a cloud-based multi-company SaaS platform.
 
@@ -18,7 +18,7 @@ The system shall consist of:
 4. Authentication Layer
 5. Reporting Layer
 
-Frontend
+## Frontend
 
 Version 1.0 shall use a web-based user interface accessible through modern browsers.
 
@@ -30,7 +30,7 @@ The frontend must support:
 
 The frontend shall be designed as a business application rather than a marketing website.
 
-Backend
+## Backend
 
 Business logic shall be executed on the server side.
 
@@ -44,7 +44,7 @@ Responsibilities include:
 
 No critical accounting logic shall rely solely on browser execution.
 
-Database
+## Database
 
 The official database platform is:
 
@@ -60,7 +60,7 @@ Browser storage may only be used for:
 
 Accounting records must never rely on browser-only storage.
 
-Multi-Company Architecture
+## Multi-Company Architecture
 
 Every business record must belong to a company.
 
@@ -78,7 +78,7 @@ All application queries must respect company boundaries.
 
 A company must never have access to records belonging to another company.
 
-Authentication
+## Authentication
 
 Version 1.0 authentication method:
 
@@ -89,7 +89,7 @@ Future versions may add:
 - Google Login
 - Microsoft Login
 
-User Roles
+## User Roles
 
 Version 1.0 shall support:
 
@@ -101,7 +101,7 @@ Version 1.0 shall support:
 
 Permissions shall be role-based.
 
-Reporting
+## Reporting
 
 Version 1.0 reports:
 
@@ -111,7 +111,7 @@ Version 1.0 reports:
 
 Reports must use accounting records stored within the official database.
 
-AI Strategy
+## AI Strategy
 
 Version 1.0 prioritizes accounting accuracy.
 
@@ -125,7 +125,7 @@ Initial AI capabilities may include:
 
 AI must not replace accounting controls.
 
-Guiding Principle
+## Guiding Principle
 
 Build a reliable accounting platform first.
 
