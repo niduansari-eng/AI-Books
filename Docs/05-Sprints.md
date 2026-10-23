@@ -1,20 +1,20 @@
-PeerBooks Sprint Plan
+# PeerBooks Sprint Plan
 
-Sprint Duration
+## Sprint Duration
 
-Standard Sprint Length:
+### Standard Sprint Length:
 
 2 Weeks
 
 Every sprint must satisfy its Definition of Done before the next sprint begins.
 
-Sprint 1
+## Sprint 1
 
-Objective
+### Objective
 
 Establish platform foundation.
 
-Deliverables
+### Deliverables
 
 - Supabase Project Setup
 - User Authentication
@@ -23,82 +23,82 @@ Deliverables
 - Role Management
 - Multi-Company Isolation Setup
 
-Definition of Done
+### Definition of Done
 
 A company can register, create users, log in, and securely access only its own company records.
 
-Sprint 2
+## Sprint 2
 
-Objective
+### Objective
 
 Build accounting masters.
 
-Deliverables
+### Deliverables
 
 - Chart of Accounts
 - Customer Management
 - Vendor Management
 - Product Management
 
-Definition of Done
+### Definition of Done
 
 Master records can be created, edited, viewed, and secured per company.
 
-Sprint 3
+## Sprint 3
 
-Objective
+### Objective
 
 Build commercial transactions.
 
-Deliverables
+### Deliverables
 
 - Sales Invoices
 - Purchase Invoices
 - Transaction Posting
 
-Definition of Done
+### Definition of Done
 
 Sales and purchase transactions can be recorded and stored correctly.
 
-Sprint 4
+## Sprint 4
 
-Objective
+### Objective
 
 Build inventory and expenses.
 
-Deliverables
+### Deliverables
 
 - Inventory Transactions
 - Expense Recording
 - Inventory Valuation Foundation
 
-Definition of Done
+### Definition of Done
 
 Inventory and expense records behave correctly and remain company-isolated.
 
-Sprint 5
+## Sprint 5
 
-Objective
+### Objective
 
 Build financial reporting.
 
-Deliverables
+### Deliverables
 
 - Trial Balance
 - Profit and Loss Statement
 - Balance Sheet
 
-Definition of Done
+### Definition of Done
 
 Financial statements reconcile with accounting records.
 
-Sprint 6
+## Sprint 6
 
-Objective
+### Objective
 
 Production readiness.
 
-Deliverables
+### Deliverables
 
 - Testing
 - Security Review
@@ -106,11 +106,11 @@ Deliverables
 - Bug Fixes
 - Deployment Preparation
 
-Definition of Done
+### Definition of Done
 
 System is ready for pilot customer onboarding.
 
-Development Rule
+## Development Rule
 
 Complete current sprint before starting work on the next sprint.
 
