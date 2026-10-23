@@ -30,6 +30,13 @@ The frontend must support:
 
 The frontend shall be designed as a business application rather than a marketing website.
 
+Approved Frontend Stack:
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- ShadCN UI
+
 ## Backend
 
 Business logic shall be executed on the server side.
@@ -43,6 +50,19 @@ Responsibilities include:
 - Reporting calculations
 
 No critical accounting logic shall rely solely on browser execution.
+
+Approved Backend Services:
+
+- Supabase Authentication
+- Supabase Database
+- Supabase Row Level Security
+
+## Hosting
+
+Approved Hosting Platforms:
+
+- Frontend: Vercel
+- Backend Services and Database: Supabase
 
 ## Database
 
